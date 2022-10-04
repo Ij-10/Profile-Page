@@ -8,6 +8,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+/* first slide style */
 .firstContainer{
     display: flex;
     justify-content: space-between;
@@ -16,14 +17,14 @@ body{
     height: 600px;
 }
 
-img{
+.firstImage{
     width: 500px;
     height: 500px;
     border-radius: 20px;
     margin-top: 40px;
 }
 
-.containerContent{
+.firstContainerContent{
     display: flex;
     flex-direction: column;
     margin-top: 130px;
@@ -76,4 +77,95 @@ img{
     border-radius: 15px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #4169E1;
+    /* width: 210px; */
+    font-size: 15.5px;
+    border-radius: 5px;
+    transition: all 0.8s linear;
+}
+/* end of first slide styles */
+
+/* second slide styling */
+.secondContainer{
+    padding: 50px;
+    height: 500px;
+    background-color: #DEDEDE;
+}
+
+.fourthHeader{
+    font-size: 18px;
+    letter-spacing: 2.5px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.boxOne{
+    margin-top: 50px;
+    margin-left: 40px;
+    cursor: pointer;
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+}
+
+.boxOne:hover{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 7px;
+    transition: all 0.6s linear;
+}
+
+.secondImage{
+    width: 300px;
+    height: 150px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.boxTitle{
+    letter-spacing: 2px;
+    margin-left: 80px;
+    font-size: 17px;
+    border-radius: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+/* end of second slide styling */
+
+/* third slide styling */
+.thirdContainer{
+    padding: 50px;
+    height: 500px;
+    background-color: #DEDEDE;
+}
+
+.fifthHeader{
+    font-size: 18px;
+    letter-spacing: 2.5px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.skills{
+    background-color: aqua;
+    height: 100px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.codingSkills{
+    background-color: coral;
+    height: 70px;
+}
+
+.softSkills{
+    background-color: lemonchiffon;
+    height: 70px;
 }
