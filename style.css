@@ -19,7 +19,8 @@ body{
 img{
     width: 500px;
     height: 500px;
-    border-radius: 10px;
+    border-radius: 20px;
+    margin-top: 40px;
 }
 
 .containerContent{
@@ -47,7 +48,7 @@ img{
 .thirdHeader{
     letter-spacing: 5px;
     color:#5A4FCF;
-    margin-bottom: 25px;
+    margin-bottom: 12px;
     padding: 10px;
 }
 
@@ -66,8 +67,13 @@ img{
     font-size: 15px;
     font-weight: bold;
     padding: 10px;
-    width: 400px;
+    width: 200px;
     height: 50px;
     border-style: none;
     background-color: #5A4FCF;
+    letter-spacing: 2px;
+    color: white;
+    border-radius: 15px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    cursor: pointer;
 }
