@@ -67,7 +67,7 @@ body{
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
     font-weight: bold;
-    padding: 10px;
+    padding: 13px;
     width: 200px;
     height: 50px;
     border-style: none;
@@ -81,7 +81,6 @@ body{
 
 .btn:hover{
     background-color: #4169E1;
-    /* width: 210px; */
     font-size: 15.5px;
     border-radius: 5px;
     transition: all 0.8s linear;
@@ -110,6 +109,7 @@ body{
     height: 200px;
     border-radius: 20px;
     background-color: whitesmoke;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .boxOne:hover{
@@ -143,6 +143,7 @@ a{
     padding: 50px;
     height: 500px;
     background-color: #DEDEDE;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .fifthHeader{
@@ -153,19 +154,210 @@ a{
 }
 
 .skills{
-    background-color: aqua;
-    height: 100px;
-    margin-top: 50px;
+    height: 400px;
+    margin-top: 70px;
     display: flex;
     justify-content: space-around;
 }
 
 .codingSkills{
-    background-color: coral;
     height: 70px;
+    cursor: pointer;
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.codingSkillsHeader{
+    margin-top: 50px;
+    background-color: #DEDEDE;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 45px;
+    letter-spacing: 2px;
+    font-size: 17px;
+}
+
+.codingSkillsHeader:hover{
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    transition: all 0.6s linear;
+}
+
+.codingSkillsContent{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+#codingSkillsParagraph{
+    margin-left: 80px;
+}
+
+.codingSkills:hover{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 7px;
+    transition: all 0.6s linear;
 }
 
 .softSkills{
-    background-color: lemonchiffon;
     height: 70px;
+    cursor: pointer;
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
+
+.softSkills:hover{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transition: all 0.6s linear;
+}
+
+.skillOne{
+    display: flex;
+    margin: 0 10px;
+}
+
+.skillTwo{
+    display: flex;
+    margin: 0 10px;
+}
+
+.skillThree{
+    display: flex;
+    margin: 0 10px;
+}
+
+#jsIcon{
+    color: #E49B0F;
+}
+
+#htmlIcon{
+    color: #FF5733;
+}
+
+#cssIcon{
+    color: #0096FF;
+}
+
+h4{
+    margin-bottom: 10px;
+}
+
+li{
+    list-style-type: none;
+}
+
+.softSkillsHeader{
+    margin-top: 20px;
+    background-color: #DEDEDE;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 45px;
+    letter-spacing: 2px;
+    font-size: 17px;
+}
+
+.softSkillsHeader:hover{
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    transition: all 0.6s linear;
+}
+
+#softSkillsParagraph{
+    margin-left: 100px;
+}
+
+.softSkillsContent{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.softSkillOne{
+    margin: 0 10px;
+}
+
+.softSkillTwo{
+    margin: 0 10px;
+}
+
+.softSkillThree{
+    margin: 0 10px;
+}
+
+.softSkillFour{
+    margin: 0 10px;
+}
+
+#problemSolvingIcon{
+    color: #E49B0F;
+}
+
+#teamWorkIcon{
+    color: #5A4FCF;
+}
+
+#communicationIcon{
+    color: #0096FF;
+}
+/* end of third slide styling */
+
+/* fourth slide styling */
+.fourthContainer{
+    padding: 50px;
+    height: 250px;
+    background-color: whitesmoke;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.socials{
+    margin-top: -20px;
+}
+
+.sixthHeader{
+    font-size: 18px;
+    letter-spacing: 2.5px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.firstSocials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+.secondSocials{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.githubIcon{
+    margin-right: 20px;
+}
+
+.githubIcon:hover{
+    color: #E49B0F;
+    transition: all 1s linear;
+}
+
+.linkedinIcon{
+    color: #0096FF;
+    transition: all 1s linear;
+}
+
+.linkedinIcon:hover{
+    color: black;
+}
+
+/* end of fourth slide styling */
